@@ -8,3 +8,5 @@ kubectl get pod -A | grep -v Running | awk '{print"kubectl delete pod -n" $1 " "
 
 kubectl get svc -A
 kubectl get cm -A
+
+kubectl get git checkout feature-branch
